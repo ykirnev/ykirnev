@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c11d463-ce9f-47df-a5cd-6eaff6e15881" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/1_Homework/task1-5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/ML_CMC_MSU/1_Homework_Python_Base/task1-5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/1_Homework/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/ML_CMC_MSU/1_Homework_Python_Base/task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/1_Homework/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/ML_CMC_MSU/1_Homework_Python_Base/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Algoritms/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mwcUPONYZQJtnygZ87dH25OT4a" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -41,14 +40,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ykirnev/workplace/ykirnev",
+    "last_opened_file_path": "/Users/ykirnev/workplace/ykirnev/Python/ML_CMC_MSU/2_Homework_numpy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/2_Homework_numpy" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727991093942</updated>
-      <workItem from="1727991095631" duration="3476000" />
+      <workItem from="1727991095631" duration="6902000" />
+      <workItem from="1728115139268" duration="7111000" />
     </task>
     <servers />
   </component>
@@ -66,7 +72,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ykirnev$Fib_3.coverage" NAME="Fib_3 Coverage Results" MODIFIED="1727992850961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
-    <SUITE FILE_PATH="coverage/ykirnev$main.coverage" NAME="main Coverage Results" MODIFIED="1727992827669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
+    <SUITE FILE_PATH="coverage/ykirnev$main.coverage" NAME="main Coverage Results" MODIFIED="1728120067936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
     <SUITE FILE_PATH="coverage/ykirnev$Fib1.coverage" NAME="Fib1 Coverage Results" MODIFIED="1727991161778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
   </component>
 </project>
