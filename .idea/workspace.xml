@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8c11d463-ce9f-47df-a5cd-6eaff6e15881" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Algoritms/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Algoritms/Evkild_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms_stepik/Evkild_gcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Algoritms/Fib1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms_stepik/Fib1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Algoritms/Fib2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms_stepik/Fib2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Algoritms/Fib_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms_stepik/Fib_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Algoritms/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Algoritms_stepik/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ykirnev/workplace/ykirnev/Python/ML_CMC_MSU/2_Homework_numpy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ykirnev/workplace/ykirnev/Python/ML_CMC_MSU/2_Homework_numpy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/2_Homework_numpy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727991093942</updated>
       <workItem from="1727991095631" duration="6902000" />
-      <workItem from="1728115139268" duration="7111000" />
+      <workItem from="1728115139268" duration="7920000" />
+      <workItem from="1728247542583" duration="7670000" />
     </task>
     <servers />
   </component>
@@ -72,7 +80,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ykirnev$Fib_3.coverage" NAME="Fib_3 Coverage Results" MODIFIED="1727992850961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
+    <SUITE FILE_PATH="coverage/ykirnev$B_Football_commentator.coverage" NAME="B_Football_commentator Coverage Results" MODIFIED="1728296501703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5" />
+    <SUITE FILE_PATH="coverage/ykirnev$A_Tree_draw.coverage" NAME="A_Tree_draw Coverage Results" MODIFIED="1728248955409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5" />
+    <SUITE FILE_PATH="coverage/ykirnev$C_File_format.coverage" NAME="C_File_format Coverage Results" MODIFIED="1728298478588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
     <SUITE FILE_PATH="coverage/ykirnev$main.coverage" NAME="main Coverage Results" MODIFIED="1728120067936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
     <SUITE FILE_PATH="coverage/ykirnev$Fib1.coverage" NAME="Fib1 Coverage Results" MODIFIED="1727991161778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
+    <SUITE FILE_PATH="coverage/ykirnev$D_Chesstable.coverage" NAME="D_Chesstable Coverage Results" MODIFIED="1728299581656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
   </component>
 </project>
