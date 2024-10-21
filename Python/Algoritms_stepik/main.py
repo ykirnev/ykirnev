@@ -1,92 +1,74 @@
-def gcdmy(a, b):
-    if a == 0 or b == 0:
-        return a + b
-    if a > b:
-        return gcdmy(a % b, b)
-    return gcdmy(b % a, a)
-
-
-a = 2#int(input())
-b = 5#int(input())
-print(gcdmy(a, b))
-
-if (b > a):
-    a, b = b, a
-while b != 0:
-    a, b = b, a % b
-print(a)
-
-def is_palindrome(string):
-    if len(string) == 1:
-        return 1
-    if string[::-1]==string:
-        return len(string)
-    return is_palindrome(string[:-1:])
-
-print(is_palindrome('qwqwqwqwq'))
-
-a = [1, 4, 2, 4, 6, 7]
-#a = eval(input())
-mx = max(a[0], a[1])
-mx2 = a[0] + a[1] - mx
-for i in range(2, len(a)):
-    new = a[i]
-    if new > mx:
-        mx2 = mx
-        mx = new
-    elif new > mx2:
-        mx2 = new
-
-print(mx, mx2)
-
-mas = [1, 1]
-n = 10 #int(input())
-for i in range(2, n):
-    new = mas[i - 1] + mas[i - 2]
-    mas.append(new)
-print(mas[-1])
-print(*mas)
-
-def merge(a1, a2):
-    res = []
-    a1_id, a2_id = 0, 0
-    a1_len, a2_len = len(a1), len(a2)
-    for i in range(a1_len + a2_len):
-        if a1_id < a1_len and a2_id < a2_len:
-            if a1[a1_id] < a2[a2_id]:
-                res.append(a1[a1_id])
-                a1_id += 1
-            else:
-                res.append(a2[a2_id])
-                a2_id += 1
-        elif a1_id == a1_len:
-            res.append(a2[a2_id])
-            a2_id += 1
-        else:
-            res.append(a1[a1_id])
-            a1_id += 1
-    return res
-def merge_sort(a):
-    if (len(a) == 1):
-        return a
-    mid = len(a) // 2
-    left_part = merge_sort(a[:mid])
-    right_part = merge_sort(a[mid:])
-    return merge(left_part, right_part)
-#a = [1, 3, 4, 5, 9, 10]
-a = list(eval(input()))
-n = len(a)
-print(merge_sort(a))
-
+#[1, 2, 3, 0.5, 1.4, "23fegr", True, False, [1, 2, 3, [1,2, 3]]]
+#a = list(eval(input())) #через запятую
+#a = list(map(int, input().split(";"))) #через пробел и другой разделитель
+#a = input().split() #через пробел для строк
+#1) вводится количество
+n = 0#int(input())
+a = []
 for i in range(n):
-    for j in range(1, n - i):
-        if a[j] > a[j - 1]:
-            cp = a[j]
-            a[j] = a[j - 1]
-            a[j - 1] = cp
+    x = int(input())
+    a.append(x)
+tmp = 0#int(input())
+b = []
+while tmp != 0:
+    b.append(tmp)
+    tmp = int(input())
 
-sorted(a)
+while tmp != "END":
+    b.append(int(tmp))
+    tmp = "END" #input()
+c = []
+#while new := input():
+ #   c.append(float(new))
+#print(c)
+#a = list(map(int, input().split()))
+l = len(a)
+left = 0
+right = l - 1
+while (right - left) > 1:
+    middle = (right - left) // 2 + left
+    if a[middle] < a[middle + 1]:
+        left = middle
+    else:
+        right = middle
+    print(right, left)
+#print(a[right])
+#Ящик с точками
+#Вводить вещественные числа x, y и z по три в строке через запятую,
+#считая их координатами точек (не менее одной тройки). Конец ввода — пустая строка.
+#Вывести минимальный объём содержащего все точки параллелепипеда с рёбрамии,
+#параллельными осям координат.
+x_min, y_min, z_min = 0, 0, 0
+x_max, y_max, z_max = eval(input())
+while a:=input():
+    x, y, z = eval(a)
+    if x < x_min:
+        x_min = x
+    if y < y_min:
+        y_min = y
+    if z < z_min:
+        z_min = z
+    if x > x_max:
+        x_max = x
+    if y > y_max:
+        y_max = y
+    if z > z_max:
+        z_max = z
+print((z_max - z_min)*(x_max - x_min) * (y_max - y_min))
 
-
-
+#Сортировка подчсётом
+#Вводится последовательность пар натуральных чисел, не превышающих 100,
+#последняя строка ввода — пустая. Вывести её в лексикографически отсортированном
+#по возрастанию виде. Дополнительные условия: из составных типов данных можно пользоваться
+#только списками и кортежами (для вывода — строками), целиком последовательность в памяти
+#хранить нельзя!
+mas = [[0] * 101 for i in range(101)]
+while a:=input():
+    x, y = map(int, a.split())
+    mas[x][y] += 1
+for i in range(101):
+    for j in range(101):
+        if mas[i][j] != 0:
+            for k in range(mas[i][j]):
+                print(i, ', ', j)
 
