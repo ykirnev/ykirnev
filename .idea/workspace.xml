@@ -32,32 +32,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ykirnev/workplace/ykirnev/Python/ML_CMC_MSU/2_Homework_numpy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ykirnev/workplace/ykirnev/С/OS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.project",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/С/OS" />
       <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/2_Homework_numpy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/3_Homework_sklearn-scaling" />
-      <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/4_Homework_knn" />
-      <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/5_Homework_Data_analysis" />
-      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/С/OS/07contest" />
+      <recent name="$PROJECT_DIR$/С/OS/6contest" />
+      <recent name="$PROJECT_DIR$/С/OS/5contest" />
+      <recent name="$PROJECT_DIR$/С" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +77,7 @@
       <workItem from="1729413279360" duration="6555000" />
       <workItem from="1729930075690" duration="2649000" />
       <workItem from="1729937519240" duration="28000" />
-      <workItem from="1729937591438" duration="24026000" />
+      <workItem from="1729937591438" duration="25083000" />
     </task>
     <servers />
   </component>
