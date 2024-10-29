@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int mas[2010];
+
+int step(int n, int s)
+{
+    int x=n;
+    for (int i=2;i<=s;i++) x*=n;
+    return x;
+
+}
+
+int sl(int n)
+{
+    for (int i=1;i<=4;i++)
+    {
+        if ((n%step(10, i))==n) return n*step(10, i)+n;
+    }
+    return n;
+}
+
+
+int in(int n, int k)
+{
+    for (int i=0;i<k;i++)
+    {
+        if (mas[i]==n) return 1;
+    }
+    return 0;
+}
+
+
+
+int main(void)
+{
+    int n, a, f=0, x;
+    scanf("%d %d", &n, &a);
+    x=n%2010;
+    mas[0]=x;
+    if (a>=2010) 
+    {
+        printf("NO");
+        return 0;
+    }
+    else
+    {
+        if (a==mas[0])
+        {
+            printf("YES");
+            return 0;
+        }
+        for (int i=1;i<2010;i++)
+        {
+            x=(sl(mas[i-1]))%2010;
+            if (in(mas[i], i-1)==1)
+            {
+                f=0;
+                break;
+            }
+            if(a==x)
+            {
+                f=1;
+                break;
+            }
+            mas[i]=x;
+        }
+        if (f==0) printf("NO");
+        else printf("YES");
+    }
+    return 0;
+}
