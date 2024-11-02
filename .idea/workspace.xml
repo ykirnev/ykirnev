@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c11d463-ce9f-47df-a5cd-6eaff6e15881" name="Changes" comment="" />
+    <list default="true" id="8c11d463-ce9f-47df-a5cd-6eaff6e15881" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ykirnev/workplace/ykirnev/С/OS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.project",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ykirnev/workplace/ykirnev/С/OS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/С/OS" />
@@ -77,7 +79,8 @@
       <workItem from="1729413279360" duration="6555000" />
       <workItem from="1729930075690" duration="2649000" />
       <workItem from="1729937519240" duration="28000" />
-      <workItem from="1729937591438" duration="25083000" />
+      <workItem from="1729937591438" duration="25773000" />
+      <workItem from="1730451624001" duration="1312000" />
     </task>
     <servers />
   </component>
@@ -97,6 +100,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ykirnev$I_Schedule.coverage" NAME="I_Schedule Coverage Results" MODIFIED="1728598724812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
+    <SUITE FILE_PATH="coverage/ykirnev$RaceTesting.coverage" NAME="RaceTesting Coverage Results" MODIFIED="1730452341496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$ArbTangent.coverage" NAME="ArbTangent Coverage Results" MODIFIED="1728673940535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$DrawSquare.coverage" NAME="DrawSquare Coverage Results" MODIFIED="1728649529176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$T_shirts_and_socks.coverage" NAME="T-shirts_and_socks Coverage Results" MODIFIED="1730138895736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6" />
@@ -107,7 +111,7 @@
     <SUITE FILE_PATH="coverage/ykirnev$A_Tree_draw.coverage" NAME="A_Tree_draw Coverage Results" MODIFIED="1728248955409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5" />
     <SUITE FILE_PATH="coverage/ykirnev$MaxInt.coverage" NAME="MaxInt Coverage Results" MODIFIED="1728599818585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$C_File_format.coverage" NAME="C_File_format Coverage Results" MODIFIED="1728298478588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
-    <SUITE FILE_PATH="coverage/ykirnev$Table.coverage" NAME="Table Coverage Results" MODIFIED="1730150723738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6" />
+    <SUITE FILE_PATH="coverage/ykirnev$Table.coverage" NAME="Table Coverage Results" MODIFIED="1730203067552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6" />
     <SUITE FILE_PATH="coverage/ykirnev$main.coverage" NAME="main Coverage Results" MODIFIED="1730120272645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ykirnev$Fib1.coverage" NAME="Fib1 Coverage Results" MODIFIED="1727991161778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
     <SUITE FILE_PATH="coverage/ykirnev$E_Profitable_startup.coverage" NAME="E_Profitable_startup Coverage Results" MODIFIED="1728302391416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
