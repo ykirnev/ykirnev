@@ -33,7 +33,7 @@ main(int argc, char *argv[])
                     semctl(semid, 0, IPC_RMID);
                     break;
                 }
-                printf("%d %d\n", i, x);
+                f("%d %d\n", i, x);
                 fflush(stdout);
                 if (x > 0) {
                     new_proc_id = x % nproc;

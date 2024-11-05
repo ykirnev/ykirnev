@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8c11d463-ce9f-47df-a5cd-6eaff6e15881" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS (С)/15contest/15_3.c" beforeDir="false" afterPath="$PROJECT_DIR$/OS (С)/15contest/15_3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Yandex_open_algs_6/Raft.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Yandex_open_algs_6/1 contest/A_Raft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Yandex_open_algs_6/T-shirts_and_socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Yandex_open_algs_6/1 contest/B_T-shirts_and_socks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Yandex_open_algs_6/Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Yandex_open_algs_6/1 contest/C_Table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +60,11 @@
       <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/2_Homework_numpy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
+      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest/D_tests" />
+      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/1 contest" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/С/OS/07contest" />
-      <recent name="$PROJECT_DIR$/С/OS/6contest" />
-      <recent name="$PROJECT_DIR$/С/OS/5contest" />
-      <recent name="$PROJECT_DIR$/С" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +84,11 @@
       <workItem from="1729930075690" duration="2649000" />
       <workItem from="1729937519240" duration="28000" />
       <workItem from="1729937591438" duration="25773000" />
-      <workItem from="1730451624001" duration="1312000" />
+      <workItem from="1730451624001" duration="1323000" />
+      <workItem from="1730581883053" duration="16136000" />
+      <workItem from="1730712746099" duration="18404000" />
+      <workItem from="1730788602683" duration="134000" />
+      <workItem from="1730796383344" duration="6872000" />
     </task>
     <servers />
   </component>
@@ -95,18 +103,27 @@
           <line>62</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest/E_Medians.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ykirnev$I_Schedule.coverage" NAME="I_Schedule Coverage Results" MODIFIED="1728598724812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
+    <SUITE FILE_PATH="coverage/ykirnev$I_AlgoritmsStudy.coverage" NAME="I_AlgoritmsStudy Coverage Results" MODIFIED="1730817667011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$RaceTesting.coverage" NAME="RaceTesting Coverage Results" MODIFIED="1730452341496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$ArbTangent.coverage" NAME="ArbTangent Coverage Results" MODIFIED="1728673940535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
+    <SUITE FILE_PATH="coverage/ykirnev$G_CensorshipProduct.coverage" NAME="G_CensorshipProduct Coverage Results" MODIFIED="1730812067190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$DrawSquare.coverage" NAME="DrawSquare Coverage Results" MODIFIED="1728649529176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$T_shirts_and_socks.coverage" NAME="T-shirts_and_socks Coverage Results" MODIFIED="1730138895736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6" />
+    <SUITE FILE_PATH="coverage/ykirnev$F_ThreeSum.coverage" NAME="F_ThreeSum Coverage Results" MODIFIED="1730716799454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$F_Misha_maths.coverage" NAME="F_Misha+maths Coverage Results" MODIFIED="1728304630522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
     <SUITE FILE_PATH="coverage/ykirnev$ThreeSquares.coverage" NAME="ThreeSquares Coverage Results" MODIFIED="1729416532747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$Fib_3.coverage" NAME="Fib_3 Coverage Results" MODIFIED="1727992850961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
+    <SUITE FILE_PATH="coverage/ykirnev$C_Fog_in_town.coverage" NAME="C_Fog_in_town Coverage Results" MODIFIED="1730631680516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$B_Football_commentator.coverage" NAME="B_Football_commentator Coverage Results" MODIFIED="1728296501703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5" />
     <SUITE FILE_PATH="coverage/ykirnev$A_Tree_draw.coverage" NAME="A_Tree_draw Coverage Results" MODIFIED="1728248955409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5" />
     <SUITE FILE_PATH="coverage/ykirnev$MaxInt.coverage" NAME="MaxInt Coverage Results" MODIFIED="1728599818585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
@@ -116,14 +133,21 @@
     <SUITE FILE_PATH="coverage/ykirnev$Fib1.coverage" NAME="Fib1 Coverage Results" MODIFIED="1727991161778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
     <SUITE FILE_PATH="coverage/ykirnev$E_Profitable_startup.coverage" NAME="E_Profitable_startup Coverage Results" MODIFIED="1728302391416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
     <SUITE FILE_PATH="coverage/ykirnev$SeeSaw.coverage" NAME="SeeSaw Coverage Results" MODIFIED="1729943943414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
+    <SUITE FILE_PATH="coverage/ykirnev$B_Numbers_sum.coverage" NAME="B_Numbers_sum Coverage Results" MODIFIED="1730630946064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
+    <SUITE FILE_PATH="coverage/ykirnev$D_Best_relax.coverage" NAME="D_Best_relax Coverage Results" MODIFIED="1730640494042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
+    <SUITE FILE_PATH="coverage/ykirnev$J_Evidence_Investigation.coverage" NAME="J_Evidence_Investigation Coverage Results" MODIFIED="1730804315689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$NonPrime.coverage" NAME="NonPrime Coverage Results" MODIFIED="1729947966287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$ConvexPolygon.coverage" NAME="ConvexPolygon Coverage Results" MODIFIED="1728601184390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$PairNumber.coverage" NAME="PairNumber Coverage Results" MODIFIED="1729336343959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
+    <SUITE FILE_PATH="coverage/ykirnev$A_Prefix_sum.coverage" NAME="A_Prefix_sum Coverage Results" MODIFIED="1730582158564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
+    <SUITE FILE_PATH="coverage/ykirnev$E_Medians.coverage" NAME="E_Medians Coverage Results" MODIFIED="1730715911899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$D_Chesstable.coverage" NAME="D_Chesstable Coverage Results" MODIFIED="1728299607609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
     <SUITE FILE_PATH="coverage/ykirnev$H_Running_track.coverage" NAME="H_Running_track Coverage Results" MODIFIED="1728560855749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
     <SUITE FILE_PATH="coverage/ykirnev$VirtualTurtle.coverage" NAME="VirtualTurtle Coverage Results" MODIFIED="1729938037608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$G_Destroy_barracks.coverage" NAME="G_Destroy_barracks Coverage Results" MODIFIED="1728558790454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5/1_cont" />
+    <SUITE FILE_PATH="coverage/ykirnev$G_OpenSpace.coverage" NAME="G_OpenSpace Coverage Results" MODIFIED="1730733725093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$FarGalaxy.coverage" NAME="FarGalaxy Coverage Results" MODIFIED="1729418949274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
+    <SUITE FILE_PATH="coverage/ykirnev$D_Best_relax2.coverage" NAME="D_Best_relax2 Coverage Results" MODIFIED="1730713797595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$Raft.coverage" NAME="Raft Coverage Results" MODIFIED="1730133996184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6" />
     <SUITE FILE_PATH="coverage/ykirnev$Pokemons.coverage" NAME="Pokemons Coverage Results" MODIFIED="1729422322589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
   </component>
