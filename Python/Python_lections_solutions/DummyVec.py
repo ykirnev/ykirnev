@@ -6,7 +6,7 @@ class vector:
         return ':'.join(map(str, self.values))
 
     def __add__(self, other):
-        if isinstance(other, vector):
+        if isobj(other, vector):
             other_values = other.values
         else:
             other_values = list(other)

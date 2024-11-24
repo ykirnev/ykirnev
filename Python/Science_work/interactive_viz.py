@@ -1,93 +1,182 @@
+from PyQt5 import QtWidgets, QtCore, QtWebEngineWidgets
+from libs import pyvis
 import networkx as nx
 import json
 import sys
 import os
 import mod_community_louvain
-import matplotlib
-import matplotlib.pyplot as plt
 from collections import defaultdict
 
 
-def load_graph(path):
-    ext = os.path.splitext(path)[-1].lower()
-    if ext == '.adjlist':
-        G = nx.read_adjlist(path, encoding='utf-8')
-    elif ext == '.multiadjlist':
-        G = nx.read_multiline_adjlist(path, encoding='utf-8')
-    elif ext == '.dot':
-        G = nx.nx_pydot.read_dot(path)
-    elif ext == '.edgelist':
-        G = nx.read_edgelist(path, encoding='utf-8')
-    elif ext == '.gexf':
-        G = nx.read_gexf(path)
-    elif ext == '.gml':
-        G = nx.read_gml(path, encoding='utf-8')
-    elif ext == '.graphml':
-        G = nx.read_graphml(path)
-    elif ext == '.json':
-        with open(path, encoding='utf-8') as f:
-            G = nx.readwrite.json_graph.node_link_graph(json.load(f))
-    elif ext == '.leda':
-        G = nx.read_leda(path, encoding='utf-8')
-    elif ext == '.sg6':
-        G = nx.read_sparse6(path, encoding='utf-8')
-    elif ext == '.pajek':
-        G = nx.read_pajek(path, encoding='utf-8')
-    elif ext == '.mtx':
-        G = nx.read_matrix_market(path)
-    else:
-        raise ValueError(f"Unsupported file extension: {ext}")
-    G = nx.Graph(G)
-    return G
+class GraphVisualization(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()
 
+        self.setWindowTitle("Graph Visualization with Clustering")
+        self.setGeometry(100, 100, 800, 600)
 
-def vizualize_graph(G, level):
-    partition = mod_community_louvain.best_partition(G, level=level)
+        self.layout = QtWidgets.QVBoxLayout(self)
 
-    cluster_graph = nx.Graph()
-    cluster_map = defaultdict(list)
+        self.graph_button = QtWidgets.QPushButton("Select Graph File")
+        self.graph_button.clicked.connect(self.select_graph_file)
+        self.layout.addWidget(self.graph_button)
 
-    for node, cluster in partition.items():
-        cluster_map[cluster].append(node)
+        self.slider = QtWidgets.QSlider(QtCore.Qt.Horizontal)
+        self.slider.setMinimum(1)
+        self.slider.setMaximum(100)
+        self.slider.setValue(1)
+        self.slider.setTickInterval(1)
+        self.slider.valueChanged.connect(self.update_graph)
+        self.layout.addWidget(self.slider)
 
-    # Create a node for each cluster
-    for cluster_id, nodes in cluster_map.items():
-        cluster_graph.add_node(cluster_id, size=len(nodes))
+        self.label = QtWidgets.QLabel("Clustering Level: 1")
+        self.layout.addWidget(self.label)
 
-    # Create edges between clusters
-    for cluster_id, nodes in cluster_map.items():
-        for node in nodes:
-            for neighbor in G.neighbors(node):
-                neighbor_cluster = partition[neighbor]
-                if cluster_id != neighbor_cluster:
-                    if cluster_graph.has_edge(cluster_id, neighbor_cluster):
-                        cluster_graph[cluster_id][neighbor_cluster]['weight'] += 0.005
-                    else:
-                        cluster_graph.add_edge(cluster_id, neighbor_cluster, weight=1)
+        self.web_view = QtWebEngineWidgets.QWebEngineView()
+        self.layout.addWidget(self.web_view)
 
-    pos = nx.spring_layout(cluster_graph)
+        self.graph_file_path = None
+        self.clusters = None
+        self.html_file_path = os.path.abspath("graph.html")
 
-    plt.figure(figsize=(12, 8))
+    def select_graph_file(self):
+        options = QtWidgets.QFileDialog.Options()
+        file_name, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Select Graph File", "",
+                                                             "All Supported Files (*.adjlist *.multiadjlist *.dot *.edgelist *.gexf *.gml *.graphml *.json *.leda *.sg6 *.pajek *.mtx);;All Files (*)",
+                                                             options=options)
+        if file_name:
+            self.graph_file_path = file_name
+            self.load_graph()
+            # self.perform_clustering()
+            self.update_graph()
 
-    # Draw nodes with sizes proportional to the number of original nodes in each cluster
-    sizes = [cluster_graph.nodes[cluster]['size'] * 1.1 for cluster in cluster_graph.nodes]
-    nx.draw_networkx_nodes(cluster_graph, pos, node_size=sizes, node_color='lightblue')
+    def load_graph(self):
+        if self.graph_file_path:
+            ext = os.path.splitext(self.graph_file_path)[1].lower()
+            if ext == '.adjlist':
+                self.G = nx.read_adjlist(self.graph_file_path, encoding='utf-8')
+            elif ext == '.multiadjlist':
+                self.G = nx.read_multiline_adjlist(self.graph_file_path, encoding='utf-8')
+            elif ext == '.dot':
+                self.G = nx.nx_pydot.read_dot(self.graph_file_path)
+            elif ext == '.edgelist':
+                self.G = nx.read_edgelist(self.graph_file_path, encoding='utf-8')
+            elif ext == '.gexf':
+                self.G = nx.read_gexf(self.graph_file_path)
+            elif ext == '.gml':
+                self.G = nx.read_gml(self.graph_file_path, encoding='utf-8')
+            elif ext == '.graphml':
+                self.G = nx.read_graphml(self.graph_file_path)
+            elif ext == '.json':
+                with open(self.graph_file_path, encoding='utf-8') as f:
+                    self.G = nx.readwrite.json_graph.node_link_graph(json.load(f))
+            elif ext == '.leda':
+                self.G = nx.read_leda(self.graph_file_path, encoding='utf-8')
+            elif ext == '.sg6':
+                self.G = nx.read_sparse6(self.graph_file_path, encoding='utf-8')
+            elif ext == '.pajek':
+                self.G = nx.read_pajek(self.graph_file_path, encoding='utf-8')
+            elif ext == '.mtx':
+                self.G = nx.read_matrix_market(self.graph_file_path)
+            else:
+                raise ValueError(f"Unsupported file extension: {ext}")
+            self.G = nx.Graph(self.G)
+            # print("Graph loaded successfully.")
 
-    # Draw edges with widths proportional to their weights
-    edges = cluster_graph.edges(data=True)
-    weights = [edge[2]['weight'] for edge in edges]
-    nx.draw_networkx_edges(cluster_graph, pos, edgelist=cluster_graph.edges(), width=weights)
+    def update_graph(self):
+        if self.G:
+            level = self.slider.value()
+            self.label.setText(f"Clustering Level: {level}")
 
-    nx.draw_networkx_labels(cluster_graph, pos, font_size=12)
+            net = pyvis.network.Network(notebook=True, cdn_resources='in_line')
 
-    plt.title(f"Graph Visualization with Clustering Level: {level}")
-    plt.savefig('clustered_graph_5000.png')
-    plt.show()
+            # for node in self.G.nodes():
+            #     self.G.nodes[node]['group'] = self.clusters[node] % level
+
+            net.set_options("""
+            var options = {
+            "nodes": {
+                "font": {
+                "size": 12
+                }
+            },
+            "edges": {
+                "color": {
+                "inherit": true
+                },
+                "smooth": false
+            },
+            "physics": {
+                "forceAtlas2Based": {
+                "gravitationalConstant": -26,
+                "centralGravity": 0.005,
+                "springLength": 230,
+                "springConstant": 0.18
+                },
+                "maxVelocity": 146,
+                "solver": "forceAtlas2Based",
+                "timestep": 0.35,
+                "stabilization": {
+                "enabled": true,
+                "iterations": 1000,
+                "updateInterval": 25,
+                "onlyDynamicEdges": false,
+                "fit": true
+                }
+            }
+            }
+            """)
+
+            partition = mod_community_louvain.best_partition(self.G, level=level)
+
+            community_map = defaultdict(list)
+            for node, community_id in partition.items():
+                community_map[community_id].append(node)
+
+            # Добавляем узлы в pyvis сеть
+            for community_id, nodes in community_map.items():
+                net.add_node(f"Community {community_id + 1}",
+                             title=f"Community {community_id + 1} (Size: {len(nodes)})",
+                             size=20)  # Фиксированный размер узлов
+
+            max_weight = 1
+            edge_attributes = defaultdict(
+                lambda: {'weight': 0, 'latency': 0, 'bandwidth': float("inf"), 'reliability': 1})
+            for com1, nodes1 in community_map.items():
+                for com2, nodes2 in community_map.items():
+                    if com1 < com2:
+                        for u in nodes1:
+                            for v in nodes2:
+                                if self.G.has_edge(u, v):
+                                    edge_data = self.G[u][v]
+                                    latency = (edge_attributes[(com1, com2)]['latency'] + edge_data['latency']) / 2
+                                    bandwidth = min(edge_attributes[(com1, com2)]['bandwidth'], edge_data['bandwidth'])
+                                    reliability = edge_attributes[(com1, com2)]['reliability'] * edge_data[
+                                        'reliability']
+                                    edge_attributes[(com1, com2)]['weight'] = (latency + 1 / bandwidth) * (
+                                                1 - reliability)
+                                    edge_attributes[(com1, com2)]['latency'] = latency
+                                    edge_attributes[(com1, com2)]['bandwidth'] = bandwidth
+                                    edge_attributes[(com1, com2)]['reliability'] = reliability
+                                    if edge_attributes[(com1, com2)]['weight'] > max_weight:
+                                        max_weight = edge_attributes[(com1, com2)]['weight']
+
+            for (com1, com2), attrs in edge_attributes.items():
+                net.add_edge(f"Community {com1 + 1}", f"Community {com2 + 1}", value=attrs['weight'],
+                             title=f"Weight: {attrs['weight']}, Latency: {attrs['latency']}, bandwidth: {attrs['bandwidth']}, reliability: {attrs['reliability']}")
+
+            self.save_graph(net)
+
+            self.web_view.setUrl(QtCore.QUrl.fromLocalFile(self.html_file_path))
+
+    def save_graph(self, net):
+        html_content = net.generate_html()
+        with open(self.html_file_path, 'w', encoding='utf-8') as f:
+            f.write(html_content)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python static_viz.py <graph_file> <clustering_level>")
-        sys.exit(1)
-    G = load_graph(sys.argv[1])
-    vizualize_graph(G, int(sys.argv[2]))
+    app = QtWidgets.QApplication(sys.argv)
+    window = GraphVisualization()
+    window.show()
+    sys.exit(app.exec_())

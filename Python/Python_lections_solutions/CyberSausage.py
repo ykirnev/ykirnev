@@ -3,8 +3,8 @@ import math
 
 class Sausage:
     def __init__(self, word="pork!", n=1):
-        self.word = word if isinstance(word, str) else "pork!"
-        self.n = Fraction(n) if isinstance(n, (int, float, Fraction, str)) else Fraction(1)
+        self.word = word if isobj(word, str) else "pork!"
+        self.n = Fraction(n) if isobj(n, (int, float, Fraction, str)) else Fraction(1)
         if self.n < 0:
             self.n = Fraction(0)
 

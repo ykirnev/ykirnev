@@ -1,0 +1,7 @@
+class C(Sire):
+        pass
+
+class B(C):
+        pass
+
+print(C().parent, B().parent)

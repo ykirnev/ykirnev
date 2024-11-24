@@ -9,9 +9,12 @@ def serialize_geometry(data):
             edge['geometry'] = list(edge['geometry'].coords)
     return data
 
-city = "Sochi, Russia"
+city = "Obninsk, Russia"
+district = "Ramenki District, Moscow, Russia"
+
 try:
-    graph = ox.graph_from_place(city, network_type="drive")
+    #graph = ox.graph_from_place(district, network_type="all")
+    graph = ox.graph_from_place(city, network_type="all")
     #graph = ox.graph_from_place("Russia", network_type="drive", custom_filter='["highway"]')
     graph_data = json_graph.node_link_data(graph)
     graph_data = serialize_geometry(graph_data)
