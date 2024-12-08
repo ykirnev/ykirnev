@@ -1,7 +1,12 @@
-class C(Sire):
-        pass
-
-class B(C):
-        pass
-
-print(C().parent, B().parent)
+for x, y, w in (1, 2, 0), (1, 1, 7), (3, 4, 10), (5, 3, 6):
+    Sq = Square(x, y, w)
+    Sq.center += -1, -1
+    match Sq:
+        case Square(_, _, 0):
+            print("Zero square")
+        case Square(0, 0, _):
+            print("Started from 0")
+        case Square(s=100):
+            print("10x10 square")
+        case Square(center=c) if c[0] == round(c[0]) and c[1] == round(c[1]):
+            print("Even-sized square")

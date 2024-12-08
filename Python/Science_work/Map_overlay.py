@@ -38,7 +38,6 @@ def visualize_clusters_on_map(G, partition):
 
     handles, labels = ax.get_legend_handles_labels()
     sorted_labels, sorted_handles = zip(*sorted(zip(labels, handles)))
-
     plt.title("Обнинск all кластеризация")
 
     plt.savefig("clustered_map.png", format="png")
