@@ -38,14 +38,13 @@ def visualize_clusters_on_map(G, partition):
 
     handles, labels = ax.get_legend_handles_labels()
     sorted_labels, sorted_handles = zip(*sorted(zip(labels, handles)))
-    plt.title("Обнинск all кластеризация")
-
+    plt.title("Москва разбиение по кластерам")
     plt.savefig("clustered_map.png", format="png")
     plt.show()
 
 
 def main():
-    graph_path = ("roads.json")
+    graph_path = ("Clustered_Moscow/Moscow_roads.json")
     G = load_graph(graph_path)
 
     if nx.is_directed(G):
