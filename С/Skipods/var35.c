@@ -1,133 +1,75 @@
 #include <math.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <sys/time.h>
-#include <omp.h>
+#define  Max(a,b) ((a)>(b)?(a):(b))
 
-#define MAX_VAL(a, b) ((a) > (b) ? (a) : (b))
-#define INIT_BORDER 0.0f
+#define  N   (2*2*2*2*2*2+2)
+float   maxeps = 0.1e-7;
+int itmax = 100;
+int i,j,k;
+float eps;
+float A [N][N],  B [N][N];
 
-long long N;
-float MAX_ERROR = 0.1e-7f;
-int MAX_ITER = 100;
+void relax();
+void resid();
+void init();
+void verify(); 
 
-float **currentGrid, **nextGrid;
-float epsilon;
-
-
-void initializeGrids();
-void performRelaxation();
-void calculateResiduals();
-void calculateFinalResult(FILE *output);
-void freeMemory();
-
-
-int main(int argc, char **argv) {
-    if (argc < 5) {
-        fprintf(stderr, "Usage: %s <size> <0> <time_file> <log_file>\n", argv[0]);
-        return 1;
-    }
-
-    double start_time, end_time;
-    start_time = omp_get_wtime(); // Старт таймера
-    N = (1 << 6) * atoll(argv[1]) + 2; // Размер сетки
-    currentGrid = malloc(N * sizeof(float *));
-    nextGrid = malloc(N * sizeof(float *));
-    for (int i = 0; i < N; ++i) {
-        currentGrid[i] = malloc(N * sizeof(float));
-        nextGrid[i] = malloc(N * sizeof(float));
-    }
-
-    FILE *logFile = fopen(argv[4], "w");
-    if (!logFile) {
-        perror("Unable to open log file");
-        return 1;
-    }
-
-    initializeGrids();
-
-    // Основной цикл итераций
-    for (int iteration = 1; iteration <= MAX_ITER; ++iteration) {
-        epsilon = 0.0f;
-        performRelaxation();
-        calculateResiduals();
-
-        fprintf(logFile, "Iteration %4d: Epsilon = %.8f\n", iteration, epsilon);
-        if (epsilon < MAX_ERROR) {
-            break;
-        }
-    }
-
-    calculateFinalResult(logFile);
-    fclose(logFile);
-
-    // Запись времени выполнения
-    end_time = omp_get_wtime();
-    FILE *timeFile = fopen(argv[3], "w");
-    if (timeFile) {
-        fprintf(timeFile, "%.6f\n", end_time - start_time);
-        fclose(timeFile);
-    }
-
-    freeMemory();
-    return 0;
+int main(int an, char **as)
+{
+	int it;
+	init();
+	for(it=1; it<=itmax; it++)
+	{
+		eps = 0.;
+		relax();
+		resid();
+		printf( "it=%4i   eps=%f\n", it,eps);
+		if (eps < maxeps) break;
+	}
+	verify();
+	return 0;
 }
 
-// Инициализация сетки
-void initializeGrids() {
-    for (int y = 0; y < N; ++y) {
-        for (int x = 0; x < N; ++x) {
-            if (x == 0 || x == N - 1 || y == 0 || y == N - 1) {
-                currentGrid[x][y] = INIT_BORDER;
-            } else {
-                currentGrid[x][y] = 1.0f + x + y;
-            }
-        }
-    }
+void init()
+{ 
+	for(j=0; j<=N-1; j++)
+	for(i=0; i<=N-1; i++)
+	{
+		if(i==0 || i==N-1 || j==0 || j==N-1) A[i][j]= 0.;
+		else A[i][j]= ( 1. + i + j ) ;
+	}
+} 
+
+void relax()
+{
+	for(j=2; j<=N-3; j++)
+	for(i=2; i<=N-3; i++)
+	{
+		B[i][j]=(A[i-2][j]+A[i-1][j]+A[i+2][j]+A[i+1][j]+A[i][j-2]+A[i][j-1]+A[i][j+2]+A[i][j+1])/8.;
+	}
 }
 
-// Выполнение релаксации
-void performRelaxation() {
-    for (int y = 2; y < N - 2; ++y) {
-        for (int x = 2; x < N - 2; ++x) {
-            nextGrid[x][y] = (currentGrid[x - 2][y] + currentGrid[x - 1][y] +
-                              currentGrid[x + 2][y] + currentGrid[x + 1][y] +
-                              currentGrid[x][y - 2] + currentGrid[x][y - 1] +
-                              currentGrid[x][y + 2] + currentGrid[x][y + 1]) / 8.0f;
-        }
-    }
+void resid()
+{ 
+	for(j=1; j<=N-2; j++)
+	for(i=1; i<=N-2; i++)
+	{
+		float e;
+		e = fabs(A[i][j] - B[i][j]);         
+		A[i][j] = B[i][j]; 
+		eps = Max(eps,e);
+	}
 }
 
-// Вычисление невязки
-void calculateResiduals() {
-    for (int y = 1; y < N - 1; ++y) {
-        for (int x = 1; x < N - 1; ++x) {
-            float diff = fabsf(currentGrid[x][y] - nextGrid[x][y]);
-            currentGrid[x][y] = nextGrid[x][y];
-            epsilon = MAX_VAL(epsilon, diff);
-        }
-    }
-}
-
-// Проверка результата
-void calculateFinalResult(FILE *output) {
-    float sum = 0.0f;
-
-    for (int y = 0; y < N; ++y) {
-        for (int x = 0; x < N; ++x) {
-            sum += currentGrid[x][y] * (x + 1) * (y + 1) / (N * N);
-        }
-    }
-
-    fprintf(output, "Final Sum: %.8f\n", sum);
-}
-
-// Очистка памяти
-void freeMemory() {
-    for (int i = 0; i < N; ++i) {
-        free(currentGrid[i]);
-        free(nextGrid[i]);
-    }
-    free(currentGrid);
-    free(nextGrid);
+void verify()
+{
+	float s;
+	s=0.;
+	for(j=0; j<=N-1; j++)
+	for(i=0; i<=N-1; i++)
+	{
+		s=s+A[i][j]*(i+1)*(j+1)/(N*N);
+	}
+	printf("  S = %f\n",s);
 }

@@ -5,14 +5,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c11d463-ce9f-47df-a5cd-6eaff6e15881" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification/.idea/7_Homework_Linear_Models_classification.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Python_lections_solutions/test" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python_lections_solutions/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Science_work/Map_overlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Science_work/Map_overlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/.idea/Skipods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/compar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/graphics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/mpi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/my_run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/3/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/3/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/1/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/10/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/20/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/32/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test/5/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/3/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/1/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/10/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/20/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/32/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/100/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/100/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/140/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/140/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/160/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/160/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/20/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/20/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/4/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/5/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/5/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/60/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/60/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/7/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/7/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/8/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/8/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/9/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test1/5/9/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test2/1/1/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test2/1/1/time.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test2/1/3/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/results/test2/1/4/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/var35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/var35.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/var35a.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/С/Skipods/var35b.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,33 +275,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ykirnev/workplace/ykirnev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.project",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ykirnev/workplace/ykirnev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/С/OS" />
       <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/2_Homework_numpy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/С/Skipods" />
+      <recent name="$PROJECT_DIR$/Python/my" />
+      <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/8_Homework_SVM" />
+      <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/7_Homework_Linear_Models_classification" />
       <recent name="$PROJECT_DIR$/Python/ML_CMC_MSU/6_Homework_Linear_models" />
-      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
-      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
-      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest/D_tests" />
-      <recent name="$PROJECT_DIR$/Python/Yandex_open_algs_6/1 contest" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,7 +330,13 @@
       <workItem from="1731243402637" duration="5281000" />
       <workItem from="1731405291776" duration="38301000" />
       <workItem from="1731696935897" duration="1162000" />
-      <workItem from="1733670135826" duration="287000" />
+      <workItem from="1733670135826" duration="1005000" />
+      <workItem from="1733864865828" duration="1133000" />
+      <workItem from="1734081661316" duration="107000" />
+      <workItem from="1734304259226" duration="2814000" />
+      <workItem from="1734423436972" duration="32000" />
+      <workItem from="1734721470382" duration="11502000" />
+      <workItem from="1740485172127" duration="24000" />
     </task>
     <servers />
   </component>
@@ -134,6 +374,7 @@
     <SUITE FILE_PATH="coverage/ykirnev$RaceTesting.coverage" NAME="RaceTesting Coverage Results" MODIFIED="1730452341496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$DrawSquare.coverage" NAME="DrawSquare Coverage Results" MODIFIED="1728649529176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$A_Correct_Bracket_seq.coverage" NAME="A_Correct_Bracket_seq Coverage Results" MODIFIED="1731075763186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
+    <SUITE FILE_PATH="coverage/ykirnev$Doctests_in_connectionpool.coverage" NAME="Doctests in connectionpool Coverage Results" MODIFIED="1733866499830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3" />
     <SUITE FILE_PATH="coverage/ykirnev$G_Queue_market.coverage" NAME="G_Queue_market Coverage Results" MODIFIED="1731097363110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$F_ThreeSum.coverage" NAME="F_ThreeSum Coverage Results" MODIFIED="1730716799454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$F_Minimal_correct_bracket_seq.coverage" NAME="F_Minimal_correct_bracket_seq Coverage Results" MODIFIED="1731184565494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
@@ -141,6 +382,7 @@
     <SUITE FILE_PATH="coverage/ykirnev$ThreeSquares.coverage" NAME="ThreeSquares Coverage Results" MODIFIED="1729416532747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$C_Fog_in_town.coverage" NAME="C_Fog_in_town Coverage Results" MODIFIED="1730631680516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$B_Football_commentator.coverage" NAME="B_Football_commentator Coverage Results" MODIFIED="1728296501703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_5" />
+    <SUITE FILE_PATH="coverage/ykirnev$SynSeq.coverage" NAME="SynSeq Coverage Results" MODIFIED="1734305313074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$MaxInt.coverage" NAME="MaxInt Coverage Results" MODIFIED="1728599818585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
     <SUITE FILE_PATH="coverage/ykirnev$Fib1.coverage" NAME="Fib1 Coverage Results" MODIFIED="1727991161778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
     <SUITE FILE_PATH="coverage/ykirnev$SeeSaw.coverage" NAME="SeeSaw Coverage Results" MODIFIED="1729943943414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Python_lections_solutions" />
@@ -162,6 +404,7 @@
     <SUITE FILE_PATH="coverage/ykirnev$G_CensorshipProduct.coverage" NAME="G_CensorshipProduct Coverage Results" MODIFIED="1730812067190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/2 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$T_shirts_and_socks.coverage" NAME="T-shirts_and_socks Coverage Results" MODIFIED="1730138895736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6" />
     <SUITE FILE_PATH="coverage/ykirnev$B_Great_Migration.coverage" NAME="B_Great_Migration Coverage Results" MODIFIED="1731077109004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
+    <SUITE FILE_PATH="coverage/ykirnev$1.coverage" NAME="1 Coverage Results" MODIFIED="1733865332437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/my" />
     <SUITE FILE_PATH="coverage/ykirnev$D_Postfix.coverage" NAME="D_Postfix Coverage Results" MODIFIED="1731082602867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$J_Comfort.coverage" NAME="J_Comfort Coverage Results" MODIFIED="1731532611855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Yandex_open_algs_6/3 contest" />
     <SUITE FILE_PATH="coverage/ykirnev$Fib_3.coverage" NAME="Fib_3 Coverage Results" MODIFIED="1727992850961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Algoritms" />
